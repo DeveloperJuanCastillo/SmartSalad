@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\SmartSalad.DataAccess\SmartSalad.DataAccess.csproj" />
+    <ProjectReference Include="..\SmartSalad.Domain\SmartSalad.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
